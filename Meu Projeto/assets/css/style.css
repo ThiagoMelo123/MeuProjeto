@@ -1,0 +1,85 @@
+.bg-logo{
+    background-color: #0067B6;
+}
+
+
+#logo{
+    height: 90px;
+}
+
+.menu{
+    display: block;
+}
+
+#btn{
+    position: relative;
+    left: 1285px;
+    top: 122px;
+    height: 70px;
+    background-color: #0067B6;
+    background-size: 50%;
+}
+
+.menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: 130px;
+    left: 280px;
+}
+
+.logos{
+    position: relative ;
+    left: 80px;
+    
+}
+
+
+
+.fologo{
+    position: relative;
+    left: 300px;
+    top: 5px;
+    width: 650px;
+}
+
+.loim{
+    position: absolute; 
+    left: 1189px;
+    top: 660px;
+}
+
+nav h3{
+   position: relative;;
+   top: -30px;
+   left: 540px;
+}
+
+.menu li{
+    display: inline-block;
+    background-color: rgb(178, 176, 197);
+    padding: 5px;
+    margin: 5px;
+}
+
+footer{
+    color: rgb(20, 255, 196);
+    
+}
+
+.descricao img{
+    height: 55px;
+}
+
+.bekaps{
+    display: none;
+}
+
+.let{
+    position: relative;
+    left: 460px;
+}
+
+
+
+

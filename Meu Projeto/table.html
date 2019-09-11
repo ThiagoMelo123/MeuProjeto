@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tabela de Orçamento</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+<body id="table">
+    <nav class="navbar navbar-expand-md navbar-dark  bg-logo mb-4"> 
+                <img id="logo" src="assets/img/Logo.jpg" alt="Logo">
+                <span class="navbar-brand" href="#"> Loja de Informatica</span> 
+     </nav>
+     <nav class="menu">
+        <h3 >Menu Principal</h3>
+        <ul type="disc"> 
+            <li><a href="index.html"> home</a></li>
+            <li><a href="table.html"> Faça seu Orçamento</a></li>
+            <li><a href="produto.html"> Produtos</a></li>
+            <li><a href="cadastro.html"> Cadastro de produto</a></li>
+            <li><a href="cadastroServico.html"> Cadastro de serviços</a></li>
+        </ul>
+      </nav>
+
+      <h1 class="let">Tabela de Serviços</h1>
+
+
+    <table class="table table-striped table-dark">
+        <thead>
+          <tr>
+            <th scope="col">Serviços</th>
+            <th scope="col">Preços</th>
+            <th scope="col">Quantidade</th>
+            <th scope="col">Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="pecorre">
+            <th scope="row"> <a href="table-formatacao.html"> Formatação </a></th>
+            <td class="diaria">R$100,00</td>
+            <td ><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr class="pecorre">
+            <th scope="row">Manutenção</th>
+            <td class="diaria">R$50,00</td>
+            <td><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr class="pecorre">
+            <th scope="row">Limpeza</th>
+            <td class="diaria">R$30,00</td>
+            <td><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr class="pecorre">
+            <th scope="row">Restauração de Placa</th>
+            <td class="diaria">R$150,00</td>
+            <td><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr class="pecorre">
+            <th scope="row">Impressora Limpeza</th>
+            <td class="diaria">R$70,00</td>
+            <td><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr class="pecorre">
+            <th scope="row">Resert Geral</th>
+            <td class="diaria">R$80,00</td>
+            <td><input class="dias" type="number" min="0" max="99"></td>
+            <td class="subtotal">R$00,00</td>
+          </tr>
+          <tr>
+            <td colspan="3">TOTAL</td>
+            <td id="total">R$ 0,00</td>
+        </tr>
+        </tbody>
+      </table>
+
+      <footer class="navbar navbar-expand-md  navbar-dark bg-dark">
+        <h3>  Sua loja de confiança para qualque ocasião </h3>
+      </footer>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+</html>
